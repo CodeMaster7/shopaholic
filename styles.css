@@ -1,0 +1,124 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(27, 27, 27);
+}
+
+h1,
+h2 {
+    /* remove bold */
+    font-weight: normal;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 6px 2px 5px rgb(0, 0, 0, 0.5);
+    padding: 0 0 20px;
+    border: 1px solid rgb(211, 211, 211, 0.877);
+}
+
+#page-top {
+    background-color: rgb(107, 230, 114);
+    padding: 10px 0;
+}
+
+/* section 1 */
+#page-top h1,
+#page-top p {
+    text-align: center;
+    margin: 0.53em 0;
+}
+
+#page-top input {
+    width: 90%;
+    max-width: 250px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid rgb(211, 211, 211, 0.7);
+    font-size: 1em;
+    color: rgb(49, 49, 49);
+}
+
+#check {
+    max-width: 280px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#check #hide {
+    width: 10%;
+    margin: 0;
+    display: inline-block;
+}
+
+/* section 2 */
+#add-item {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-item input {
+    width: 300px;
+    display: block;
+    margin: 20px 0px 0px 0px;
+    padding: 0.5em;
+    border: 1px solid rgb(216, 216, 216);
+    font-size: 1em;
+    border-radius: 2px 0 0 2px;
+    -webkit-border-radius: 2px 0 0 2px;
+    -moz-border-radius: 2px 0 0 2px;
+    -ms-border-radius: 2px 0 0 2px;
+    -o-border-radius: 2px 0 0 2px;
+    float: left;
+}
+
+#add-item button {
+    width: 80px;
+    cursor: pointer;
+    color: white;
+    background: #32c77d;
+    padding: 0.7em 20px;
+    border: 1px solid #00ff6a;
+    margin: 20px 0 0 0;
+}
+
+/* section 3 */
+#grocery-list {
+    margin: 2em;
+}
+
+#grocery-list ul {
+    /* remove bullet points */
+    list-style: none;
+    /* remove default padding */
+    padding: 0;
+}
+
+#grocery-list li {
+    padding: 1em;
+    border-left: 5px solid rgb(211, 211, 211);
+    margin: 1.5em 1em;
+}
+
+#grocery-list li:hover {
+    border-color: #da4343;
+}
+
+.delete {
+    float: right;
+    background: #da4343;
+    padding: 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover {
+    background: rgb(20, 20, 20);
+}
