@@ -17,13 +17,14 @@
 					<!-- /.title -->
 					<p>My shopping list</p>
 					<!-- search and show/hide functionality -->
-					<form id="search-item"></form>
-					<!-- /#search-item -->
-					<input type="text" placeholder="Search item..." />
-					<div id="check">
-						<label for="hide">Hide list</label>
-						<input type="checkbox" id="hide" />
-					</div>
+					<form id="search-item">
+                        <!-- /#search-item -->
+                        <input type="text" placeholder="Search item..." />
+                        <div id="check">
+                            <label for="hide">Hide list</label>
+                            <input type="checkbox" id="hide" />
+                        </div>
+                    </form>
 					<!-- /#check -->
 				</div>
 				<!-- /#page-top -->
@@ -64,8 +65,33 @@
 						<!-- /.delete -->
 					</li>
 				</ul>
-			</div>
+            </div>
+            <!-- section 4 adding TABS -->
+            <div id="tab-wrapper">
+                <ul class="heading">
+                    <li data-clicked="#joke" class="active">Food Joke</li>
+                    <li data-clicked="#facts">Did you know</li>
+                </ul>
+
+                <div id="joke" class="panel">
+                    <p>What do you call a fake noodle?</p>
+                    <button id="showAnswer">Answer</button>
+                    <p id="answer"></p>
+                </div>
+                <!-- /#joke.panel -->
+
+                <div id="facts" class="panel">
+                    <p>This is what i learned about food this week</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus impedit delectus et quas quo dolorem, laboriosam provident nesciunt maxime beatae asperiores odit, minus eligendi laborum consequatur, fugiat eos itaque quam!
+                    </p>
+                </div>
+                <!-- /#facts.panel -->
+
+            </div>
+            <!-- /#tab-wrapper -->
 		</div>
-		<!-- /#wrapper -->
+        <!-- /#wrapper -->
+
+        <script src="app.js"></script>
 	</body>
 </html>
